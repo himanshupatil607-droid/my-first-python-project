@@ -1,5 +1,7 @@
 print("Welcome to my first Github project!")
 name = input("Enter your name:")
+age = input("Enter your age:")
 print(f"Hello,{name}!")
+print(f"You are {age} years old.")
 print("My first python project is working.")
-print("Today I leaened GitHub Git Workflow!")
+print("Today I learned GitHub Git Workflow!")
