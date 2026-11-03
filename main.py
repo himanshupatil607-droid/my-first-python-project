@@ -1,4 +1,6 @@
-# simple calculator
-num1 = float(input("Enter first number:"))
-num2 = float(input("Enter secound number:"))
-print(f"The sun is: {num1 + num2}")
+name = input("Enter your name: ")
+
+if name.strip():
+    print(f"Hello, {name}! Welcome to my Python project.")
+else:
+    print("Please enter your name.")
