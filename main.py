@@ -1,7 +1,4 @@
-print("Welcome to my first Github project!")
-name = input("Enter your name:")
-age = input("Enter your age:")
-print(f"Hello,{name}!")
-print(f"You are {age} years old.")
-print("My first python project is working.")
-print("Today I learned GitHub Git Workflow!")
+# simple calculator
+num1 = float(input("Enter first number:"))
+num2 = float(input("Enter secound number:"))
+print(f"The sun is: {num1 + num2}")
