@@ -1,5 +1,6 @@
-print("Welcome to my first Github project!")
-name = input("Enter your name:")
-print(f"Hello,{name}!")
-print("My first python project is working.")
-print("Today I leaened GitHub Git Workflow!")
+name = input("Enter your name: ")
+
+if name.strip():
+    print(f"Hello, {name}! Welcome to my Python project.")
+else:
+    print("Please enter your name.")
